@@ -1,0 +1,72 @@
+@import url("https://fonts.google/apis.com/css?family=Roboto:700&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+background: url(../donate/giving.jpg) no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position: 0 -70px;
+}
+.navbar{
+  height: 70px;
+  width: 100%;
+  background: rgba(0,0,0,0.1);
+}
+.navbar ul{
+  float: right;
+  margin-right: 50px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 18px;
+  display: inline-block;
+  line-height: 70px;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 13px;
+  font-family: 'Roboto',sans-serif;
+  transition: .2s;
+}
+.navbar ul li a:hover{
+  color: #000;
+  border-radius: 0.1px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -40%);
+  font-family: sans-serif;
+}
+.center h1{
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0 60px;
+}
+.center .btn{
+  margin: 35px 3px;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  outline: none;
+  border-radius: 20px;
+  text-decoration: none;
+  background: #556B2F;
+}
+.center .btn:hover{
+  color: #fff;
+  background: #6B8E23;
+}
